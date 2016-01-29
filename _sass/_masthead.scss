@@ -3,24 +3,85 @@
 // Super small header above the content for site name and short description.
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  padding-top: $large-spacing;
+  padding-bottom: $large-spacing;
+  width: $page-width;
+  max-width: $max-page-width;
+  margin: auto;
+  margin-bottom: $large-spacing;
+}
+
+.masthead-container {
+  background-color: $dark-blue;
+}
+
+.masthead-title a {
+  color: white;
+}
+
+.masthead-title a:hover {
+  text-decoration: none;
+}
+
+.nav-page a {
+  //transition: opacity 0.2s ease-in-out;
+  color: white;
+}
+
+.nav-page a:hover {
+  transition: opacity 0.25s ease-in-out;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 .masthead-title {
   margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
+  margin-right: 3rem;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
 
-  a {
-    color: #505050;
-  }
+.nav-page a {
+  margin-right: 1em;
+  text-transform: uppercase;
+}
 
-  small {
-    font-size: 75%;
-    font-weight: 400;
-    color: #c0c0c0;
-    letter-spacing: 0;
+.nav-page {
+  margin-top: 1em;
+}
+
+@media (max-width: 600px) {
+  .nav-page {
+    display: block;
   }
 }
+
+
+
+
+
+
+//
+//
+// .masthead {
+//   padding-top:    1rem;
+//   padding-bottom: 1rem;
+//   margin-bottom: 3rem;
+// }
+//
+// .masthead-title {
+//   margin-top: 0;
+//   margin-bottom: 0;
+//   color: #505050;
+//
+//   a {
+//     color: #505050;
+//   }
+//
+//   small {
+//     font-size: 75%;
+//     font-weight: 400;
+//     color: #c0c0c0;
+//     letter-spacing: 0;
+//   }
+// }
