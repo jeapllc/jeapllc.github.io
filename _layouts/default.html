@@ -9,34 +9,18 @@
       <div class="masthead">
         <span class="masthead-title">
           <a href="{{ site.url }}" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
         </span>
 
         <span class="nav-page">
           {% for weight in (1..10) %} {% for p in site.pages %} {% if p.weight == weight %}
           <a {% if p.url == page.url %}class="active"{% endif %} href="{{p.url }}"> {{ p.title }}</a>
           {% endif %} {% endfor %} {% endfor %}
-          <a href ="/rss.xml">RSS</a>
         </span>
       </div>
-
     </div>
 
 
 
-      <main>
-        {{ content }}
-      </main>
-
-      <footer class="footer">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <small>JEAP TECH</small>
-        </h3>
-        <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-        </small>
-      </footer>
 
 
   </body>
