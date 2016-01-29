@@ -50,6 +50,7 @@ $small-spacing: 0.5rem;
 $large-spacing: 2rem;
 $page-width: 90%;
 $max-page-width: 900px;
+$max-page-width-narrow: 600px;
 
 * {
   box-sizing: border-box;
@@ -263,9 +264,9 @@ tbody tr:nth-child(odd) th {
 * Center the page content.
 */
 
-.container {
+.container-narrow {
   width: $page-width;
-  max-width: $max-page-width;
+  max-width: $max-page-width-narrow;
   margin: auto;
 }
 
