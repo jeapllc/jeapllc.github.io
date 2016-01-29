@@ -441,7 +441,7 @@ tbody tr:nth-child(odd) th {
 
   .flexbox-child-header {
     min-width: 30%;
-    width: auto;
+    max-width: 150px;
     text-align: right;
     padding-right: $large-spacing;
     flex-grow: 1
@@ -449,6 +449,7 @@ tbody tr:nth-child(odd) th {
 
   .flexbox-child-body {
     width: 70%;
-    flex-grow: 2;
+    max-width: 500px;
+    padding-left: 2rem;
   }
 }
