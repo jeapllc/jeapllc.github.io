@@ -387,15 +387,16 @@ tbody tr:nth-child(odd) th {
 
 .background {
 
-  color: white;
   padding-top: $large-spacing;
   padding-bottom: $large-spacing;
 
-  .black {
+  &.black {
     background-color: black;
+    color: white;
+
   }
 
-  .grety {
+  &.grey {
     background-color: $light-grey;
   }
 }
