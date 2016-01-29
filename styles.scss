@@ -415,7 +415,6 @@ tbody tr:nth-child(odd) th {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .flexbox-child-header {
@@ -432,12 +431,12 @@ tbody tr:nth-child(odd) th {
 
   .flexbox-child-header {
     min-width: 200px;
+    width: auto;
     text-align: right;
     padding-right: $large-spacing;
   }
 
   .flexbox-child-body {
     width: 70%;
-    
   }
 }
