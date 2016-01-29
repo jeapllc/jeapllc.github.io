@@ -437,7 +437,7 @@ tbody tr:nth-child(odd) th {
 
 @media only screen and (min-width: 600px) {
   .flexbox-child {
-    margin: none;
+    padding-right: 2rem;
   }
 
   .flexbox-child-header {
@@ -446,8 +446,7 @@ tbody tr:nth-child(odd) th {
   }
 
   .flexbox-child-body {
-    width: 70%;
     max-width: 500px;
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 }
