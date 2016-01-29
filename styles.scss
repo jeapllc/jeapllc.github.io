@@ -402,10 +402,12 @@ tbody tr:nth-child(odd) th {
 .flexbox-parent {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
 }
 
 .flexbox-child-header {
-  width: 200px;
+  min-width: 200px;
   text-align: right;
+  padding-right: $large-spacing;
 }
