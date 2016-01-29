@@ -447,3 +447,25 @@ tbody tr:nth-child(odd) th {
     border-left: 3px solid $light-grey;
   }
 }
+
+
+/*
+* Section
+*
+* For the category descriptions
+*/
+
+.section {
+  padding-top: $large-spacing;
+  padding-bottom: $large-spacing;
+  background-color: white;
+  width: $page-width;
+
+}
+
+.section-ribbon {
+  padding-top: $large-spacing;
+  padding-bottom: $large-spacing;
+  text-align: center;
+  color: white;
+}
