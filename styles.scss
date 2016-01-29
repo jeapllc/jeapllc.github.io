@@ -50,7 +50,7 @@ $small-spacing: 0.5rem;
 $large-spacing: 2rem;
 $page-width: 90%;
 $max-page-width: 900px;
-$max-page-width-narrow: 600px;
+$max-page-width-narrow: 700px;
 
 * {
   box-sizing: border-box;
@@ -441,7 +441,6 @@ tbody tr:nth-child(odd) th {
   }
 
   .flexbox-child-header {
-    min-width: 30%;
     max-width: 200px;
     text-align: right;
   }
