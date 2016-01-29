@@ -402,7 +402,8 @@ tbody tr:nth-child(odd) th {
 .hero {
   background-color: black;
   color: white;
-
+  padding-top: $large-spacing;
+  padding-bottom: $large-spacing;
 }
 
 /*
@@ -415,10 +416,16 @@ tbody tr:nth-child(odd) th {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-bottom: $large-spacing;
+}
+
+.flexbox-child {
+  margin-bottom: 1rem;
 }
 
 .flexbox-child-header {
   width: 100%;
+  text-align: center;
 }
 
 
@@ -428,6 +435,9 @@ tbody tr:nth-child(odd) th {
 
 
 @media (min-width: 600px) {
+  .flexbox-child {
+    margin: none;
+  }
 
   .flexbox-child-header {
     min-width: 200px;
