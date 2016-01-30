@@ -389,6 +389,9 @@ tbody tr:nth-child(odd) th {
 */
 
 .background {
+  padding-top: $large-spacing;
+  padding-bottom: $large-spacing;
+  
   &.black {
     background-color: black;
     color: white;
