@@ -28,12 +28,10 @@
 
   <!-- Smooth scroll from https://css-tricks.com/snippets/jquery/smooth-scrolling/ -->
   <script>
-  var $root = $('html, body');
-  $('a').click(function() {
-      $root.animate({
-          scrollTop: $( $.attr(this, 'href') ).offset().top
-      }, 500);
-      return false;
+  $("#services-button").click(function() {
+      $('html, body').animate({
+          scrollTop: $("#services").offset().top
+      }, 2000);
   });
 </script>
 
