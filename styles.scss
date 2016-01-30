@@ -436,12 +436,13 @@ tbody tr:nth-child(odd) th {
 
 @media only screen and (min-width: 600px) {
   .flexbox-child {
-    padding-right: 2rem;
+
   }
 
   .flexbox-child-header {
     max-width: 150px;
     text-align: right;
+    padding-right: 2rem;
   }
 
   .flexbox-child-body {
