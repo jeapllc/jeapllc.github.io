@@ -432,6 +432,7 @@ tbody tr:nth-child(odd) th {
 
 .flexbox-child-body {
   width: 100%;
+  text-align: center;
 }
 
 
@@ -447,9 +448,10 @@ tbody tr:nth-child(odd) th {
   }
 
   .flexbox-child-body {
-    max-width: 400px;
+    max-width: 450px;
     padding-left: 1rem;
     border-left: 3px solid $light-grey;
+    text-align: left;
   }
 }
 
