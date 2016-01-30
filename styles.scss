@@ -472,34 +472,34 @@ tbody tr:nth-child(odd) th {
   padding-bottom: $large-spacing + 1rem;
   text-align: center;
   color: white;
-  margin-left: -20px;
-  margin-right: -20px;
+  // margin-left: -20px;
+  // margin-right: -20px;
   position: relative;
 
-  &:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border: 0 solid transparent;
-    border-right-color: $green-section-shadow;
-    border-width: 0px 20px 20px 0;
-    margin-top: 3rem;
-    position: absolute;
-    display: block;
-  }
-
-  &:after {
-    content: '';
-    width: 0;
-    height: 0;
-    border: 0 solid transparent;
-    border-top-color: $green-section-shadow;
-    border-width: 20px 20px 0px 0px;
-    margin-top: 1.5rem;
-    position: absolute;
-    display: block;
-    right: 0;
-  }
+  // &:before {
+  //   content: '';
+  //   width: 0;
+  //   height: 0;
+  //   border: 0 solid transparent;
+  //   border-right-color: $green-section-shadow;
+  //   border-width: 0px 20px 20px 0;
+  //   margin-top: 3rem;
+  //   position: absolute;
+  //   display: block;
+  // }
+  //
+  // &:after {
+  //   content: '';
+  //   width: 0;
+  //   height: 0;
+  //   border: 0 solid transparent;
+  //   border-top-color: $green-section-shadow;
+  //   border-width: 20px 20px 0px 0px;
+  //   margin-top: 1.5rem;
+  //   position: absolute;
+  //   display: block;
+  //   right: 0;
+  // }
 
     &.green {
       background-color: $green-section;
