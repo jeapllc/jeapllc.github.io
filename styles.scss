@@ -473,7 +473,7 @@ tbody tr:nth-child(odd) th {
   margin-left: -10px;
   margin-right: -10px;
 
-  ::before {
+  &:before {
     content: '';
     display: block;
     width: 0;
