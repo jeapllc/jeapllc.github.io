@@ -459,7 +459,7 @@ tbody tr:nth-child(odd) th {
 
 .section {
   padding-top: $large-spacing;
-  padding-bottom: $large-spacing;
+  padding-bottom: $large-spacing - 1rem;
   background-color: white;
   width: $page-width;
   margin: auto;
