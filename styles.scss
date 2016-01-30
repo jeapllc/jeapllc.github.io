@@ -389,10 +389,6 @@ tbody tr:nth-child(odd) th {
 */
 
 .background {
-
-  padding-top: $large-spacing;
-  padding-bottom: $large-spacing;
-
   &.black {
     background-color: black;
     color: white;
@@ -464,6 +460,8 @@ tbody tr:nth-child(odd) th {
   background-color: white;
   width: $page-width;
   margin: auto;
+  margin-top: $large-spacing;
+  margin-bottom: $large-spacing;
   max-width: $max-page-width-narrow;
 }
 
