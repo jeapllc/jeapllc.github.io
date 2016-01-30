@@ -13,9 +13,9 @@
         </span>
 
         <span class="nav-page">
-          {% for weight in (1..10) %} {% for p in site.pages %} {% if p.weight == weight %}
-          <a {% if p.url == page.url %}class="active"{% endif %} href="{{p.url }}"> {{ p.title }}</a>
-          {% endif %} {% endfor %} {% endfor %}
+
+          <a href="#section-services">SERVICES</a>
+          <a  href="#section-history">HISTORY</a>
         </span>
       </div>
 
@@ -47,7 +47,7 @@
     </div>
 
     <div class="background grey">
-      <div class="section shadow--4dp">
+      <div id="section-services" class="section shadow--4dp">
         <div class="section-ribbon green">
           SERVICES
         </div>
@@ -60,9 +60,9 @@
         </div>
       </div>
 
-      <div class="section shadow--4dp">
+      <div id="section-history" class="section shadow--4dp">
         <div class="section-ribbon red">
-          SERVICES
+          HISTORY
         </div>
         <div class="section-text">
           <p>
