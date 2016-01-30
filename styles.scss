@@ -470,21 +470,17 @@ tbody tr:nth-child(odd) th {
   padding-bottom: $large-spacing;
   text-align: center;
   color: white;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -20px;
+  margin-right: -20px;
 
   &:after {
     content: '';
-    display: block;
     width: 0;
     height: 0;
     border: 0 solid transparent;
     border-right-color: #fa4b2a;
     border-width: 0px 20px 20px 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    display: block;
+    margin-top: 2rem;
   }
 
     &.green {
