@@ -26,6 +26,7 @@ only Main files contain this front matter, not partials.
 $red-orange: #BF1F49;
 $green-section: #b4f379;
 $green-section-shadow: #48880c;
+$red-section: #f23847;
 $green-matte: #94b288;
 //used as masthead background color
 $zune-brown: #583B2B;
@@ -503,6 +504,12 @@ tbody tr:nth-child(odd) th {
 
     &.green {
       background-color: $green-section;
+      color: black;
+    }
+
+    %.red {
+      background-color: $red-section;
+      color: black;
     }
 }
 
