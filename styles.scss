@@ -24,7 +24,7 @@ only Main files contain this front matter, not partials.
 */
 
 $red-orange: #BF1F49;
-$green-matte: #94B288;
+$green: #b4f379;
 //used as masthead background color
 $zune-brown: #583B2B;
 $grey: #808080;
@@ -460,6 +460,7 @@ tbody tr:nth-child(odd) th {
   padding-bottom: $large-spacing;
   background-color: white;
   width: $page-width;
+  margin: auto;
 
 }
 
@@ -468,4 +469,8 @@ tbody tr:nth-child(odd) th {
   padding-bottom: $large-spacing;
   text-align: center;
   color: white;
+
+  &.green {
+    background-color: $green;
+  }
 }
