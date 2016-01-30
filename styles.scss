@@ -485,6 +485,10 @@ tbody tr:nth-child(odd) th {
     display: block;
   }
 
+  &:after {
+    right: 0;
+  }
+
     &.green {
       background-color: $green-section;
     }
