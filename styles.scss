@@ -492,11 +492,12 @@ tbody tr:nth-child(odd) th {
     width: 0;
     height: 0;
     border: 0 solid transparent;
-    border-left-color: #fa4b2a;
-    border-width: 0px 20px 20px 0;
-    margin-top: 3rem;
+    border-top-color: #fa4b2a;
+    border-width: 20px 20px 0px 0px;
+    margin-top: 1.5rem;
     position: absolute;
     display: block;
+    right: 0;
   }
 
     &.green {
