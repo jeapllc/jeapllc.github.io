@@ -486,6 +486,17 @@ tbody tr:nth-child(odd) th {
     display: block;
   }
 
+  &:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-color: #fa4b2a;
+    border-width: 0px 20px 20px 0;
+    margin-top: 3rem;
+    position: absolute;
+    display: block;
+  }
 
     &.green {
       background-color: $green-section;
