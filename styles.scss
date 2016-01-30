@@ -39,6 +39,7 @@ $large-spacing: 2rem;
 $page-width: 90%;
 $max-page-width: 900px;
 $max-page-width-narrow: 700px;
+$max-page-width-hero: 600px;
 
 * {
   box-sizing: border-box;
@@ -252,9 +253,9 @@ tbody tr:nth-child(odd) th {
 * Center the page content.
 */
 
-.container-narrow {
+.container-hero {
   width: $page-width;
-  max-width: $max-page-width-narrow;
+  max-width: $max-page-width-hero;
   margin: auto;
 }
 
@@ -446,7 +447,7 @@ tbody tr:nth-child(odd) th {
   }
 
   .flexbox-child-body {
-    max-width: 500px;
+    max-width: 400px;
     padding-left: 1rem;
     border-left: 3px solid $light-grey;
   }
