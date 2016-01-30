@@ -389,8 +389,8 @@ tbody tr:nth-child(odd) th {
 */
 
 .background {
-  padding-top: $large-spacing;
-  padding-bottom: $large-spacing;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
   &.black {
     background-color: black;
@@ -415,8 +415,8 @@ tbody tr:nth-child(odd) th {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-bottom: $large-spacing;
-  margin-top: $large-spacing;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .flexbox-child {
