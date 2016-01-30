@@ -469,6 +469,8 @@ tbody tr:nth-child(odd) th {
   width: $page-width;
   margin: auto;
   max-width: $max-page-width-narrow;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .section-ribbon {
