@@ -470,6 +470,22 @@ tbody tr:nth-child(odd) th {
   padding-bottom: $large-spacing;
   text-align: center;
   color: white;
+  margin-left: -10px;
+  margin-right: -10px;
+
+  ::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-color: #fa4b2a;
+    border-width: 0px 20px 20px 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: block;
+  }
 
     &.green {
       background-color: $green-section;
