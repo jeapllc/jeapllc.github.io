@@ -507,7 +507,7 @@ tbody tr:nth-child(odd) th {
       color: black;
     }
 
-    %.red {
+    &.red {
       background-color: $red-section;
       color: black;
     }
